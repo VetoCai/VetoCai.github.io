@@ -74,6 +74,8 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="VitoCai" type="application/atom+xml">
+
 
 
 
@@ -190,6 +192,16 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -238,7 +250,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="VitoCai">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -303,30 +315,20 @@
 
       
         
-          
-            <h1 id="博客搭建过程中的问题"><a href="#博客搭建过程中的问题" class="headerlink" title="博客搭建过程中的问题"></a>博客搭建过程中的问题</h1><p>博客的搭建的过程主要参考了掘金<a href="https://juejin.im/entry/5a574864f265da3e3c6c1217" target="_blank" rel="noopener">博文</a></p>
+          <h1 id="博客搭建过程中的问题"><a href="#博客搭建过程中的问题" class="headerlink" title="博客搭建过程中的问题"></a>博客搭建过程中的问题</h1><p>博客的搭建的过程主要参考了掘金<a href="https://juejin.im/entry/5a574864f265da3e3c6c1217" target="_blank" rel="noopener">博文</a></p>
 <p>从开始到搭建成功大概历时两个小时</p>
 <p>开始并没有完全按照掘金的方法来做而是参考的知乎吴润的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">文章</a>，由于两篇文章混淆导致在GitHub建立项目时总是出错而反复删除项目，创建项目时只要按照掘金的博文就不会出错。</p>
-<p>除了文章中我遇到以下三点问题：</p>
-<ol>
-<li>执行</li>
-</ol>
-<p>`npm install hexo-cli -g</p>
-<p>npm install hexo-deployer-git –save`</p>
-<p>命令时总提示<br><code>command not found</code></p>
-<p>背景：安装git时一路点击next，cmd可执行<img src="https://i.imgur.com/aHLbTZ0.png" alt=""></p>
-<p>解决办法：参考<a href="https://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html重新安装git" target="_blank" rel="noopener">https://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html重新安装git</a></p>
-<ol start="2">
-<li><p>执行<code>hexo g</code>是git提示只有三个commands可执行分别为help,init,version<br>解决办法，此问题随问题1 一同解决</p>
-</li>
-<li><p>本地主题没有部署到GitHub<br>原因：hexo下_config.yml文件中要把repository改成repo</p>
-</li>
-</ol>
-
-          
+<p>除了文章中我遇到以下三点问题：<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/12/04/Blog/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
-    </div>
+    </p></div>
     
     
     
@@ -375,7 +377,7 @@
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="VitoCai">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -520,6 +522,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="VitoCai">
+            
               <p class="site-author-name" itemprop="name">VitoCai</p>
               <p class="site-description motion-element" itemprop="description">努力是最不值得夸奖的付出</p>
           </div>
@@ -544,7 +548,30 @@
           </nav>
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/VetoCai" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:caichuanmeng@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
           
 
           

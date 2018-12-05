@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>VitoCai</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-12-05T03:54:47.883Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>VitoCai</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My First Blog</title>
+    <link href="http://yoursite.com/2018/12/04/Blog/"/>
+    <id>http://yoursite.com/2018/12/04/Blog/</id>
+    <published>2018-12-04T11:05:11.498Z</published>
+    <updated>2018-12-05T03:54:47.883Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="博客搭建过程中的问题"><a href="#博客搭建过程中的问题" class="headerlink" title="博客搭建过程中的问题"></a>博客搭建过程中的问题</h1><p>博客的搭建的过程主要参考了掘金<a href="https://juejin.im/entry/5a574864f265da3e3c6c1217" target="_blank" rel="noopener">博文</a></p><p>从开始到搭建成功大概历时两个小时</p><p>开始并没有完全按照掘金的方法来做而是参考的知乎吴润的<a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">文章</a>，由于两篇文章混淆导致在GitHub建立项目时总是出错而反复删除项目，创建项目时只要按照掘金的博文就不会出错。</p><p>除了文章中我遇到以下三点问题：<br><a id="more"></a></p><ol><li>执行</li></ol><p>`npm install hexo-cli -g</p><p>npm install hexo-deployer-git –save`</p><p>命令时总提示<br><code>command not found</code></p><p>背景：安装git时一路点击next，cmd可执行<img src="https://i.imgur.com/aHLbTZ0.png" alt=""></p><p>解决办法：参考<a href="https://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html重新安装git" target="_blank" rel="noopener">https://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html重新安装git</a></p><ol start="2"><li><p>执行<code>hexo g</code>是git提示只有三个commands可执行分别为help,init,version<br>解决办法，此问题随问题1 一同解决</p></li><li><p>本地主题没有部署到GitHub<br>原因：hexo下_config.yml文件中要把repository改成repo</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;博客搭建过程中的问题&quot;&gt;&lt;a href=&quot;#博客搭建过程中的问题&quot; class=&quot;headerlink&quot; title=&quot;博客搭建过程中的问题&quot;&gt;&lt;/a&gt;博客搭建过程中的问题&lt;/h1&gt;&lt;p&gt;博客的搭建的过程主要参考了掘金&lt;a href=&quot;https://juejin.im/entry/5a574864f265da3e3c6c1217&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;从开始到搭建成功大概历时两个小时&lt;/p&gt;
+&lt;p&gt;开始并没有完全按照掘金的方法来做而是参考的知乎吴润的&lt;a href=&quot;https://zhuanlan.zhihu.com/p/26625249&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;文章&lt;/a&gt;，由于两篇文章混淆导致在GitHub建立项目时总是出错而反复删除项目，创建项目时只要按照掘金的博文就不会出错。&lt;/p&gt;
+&lt;p&gt;除了文章中我遇到以下三点问题：&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/12/04/hello-world/"/>
+    <id>http://yoursite.com/2018/12/04/hello-world/</id>
+    <published>2018-12-04T07:45:02.969Z</published>
+    <updated>2018-12-04T07:45:02.969Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
