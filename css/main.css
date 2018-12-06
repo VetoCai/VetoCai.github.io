@@ -1943,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff18d9;
+  background: #4aff3e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3248,4 +3248,15 @@ pre .javascript .function {
   height: 3px;
   background: #ccc;
   text-align: center;
+}
+body {
+  background: url("https://source.unsplash.com/random/1600x900");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.main-inner {
+  margin-top: 60px;
+  background: #fff;
+  opacity: 0.9;
 }
