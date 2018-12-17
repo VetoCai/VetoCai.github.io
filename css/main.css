@@ -1253,7 +1253,9 @@ pre .javascript .function {
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
-.use-motion .post-block,
+.use-motion .post-block {
+  background-color: rgba(255,255,255,0.1);
+}
 .use-motion .pagination,
 .use-motion .comments {
   opacity: 0;
@@ -1984,7 +1986,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #42ff6c;
+  background: #5321ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3293,7 +3295,6 @@ pre .javascript .function {
 .main-inner {
   margin-top: 60px;
   background: #fff;
-  opacity: 0.9;
 }
 .bg_content {
   position: fixed;
